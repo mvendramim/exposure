@@ -33,6 +33,7 @@ html {
     position: absolute;
     left: 0px;
     top: 25%;
+    padding-left: 50px
 }
 
 .selected-item  {
@@ -64,7 +65,7 @@ html {
 
     height: 25px;
     width: 150px;
-    margin-top: 15px;
+    margin-top: 18px;
     text-align: left;   
     list-style: none;
     position: relative;
@@ -88,6 +89,7 @@ html {
 }
 
 #left   {
+ 
  
     
     float:left;
