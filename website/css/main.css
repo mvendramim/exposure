@@ -59,15 +59,32 @@ html {
     
 }
 
-.nav-item  {
+.nav-text  {
     
 
     height: 25px;
+    width: 150px;
     margin-top: 20px;
     text-align: left;   
     list-style: none;
     position: relative;
-    left: -70px;
+    left: -75px;
+    margin-left: 35px;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'AvenirLTStd55Roman', sans-serif;
+    text-indent:40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-text:hover   { 
+
+    font-family: 'AvenirLTStd85Heavy',serif;
+    
+    
 }
 
 #left   {
@@ -103,28 +120,9 @@ html {
   -webkit-transition: 1s;
 }
 
-.menu-text  {
-    width: 275px;
-    margin-left: 35px;
-    line-height: 30px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: 'AvenirLTStd55Roman', sans-serif;
-    text-indent:40px;
-    text-decoration: none;
-}
 
-.menu-text:hover  {
-    
-    color: white;
-    text-decoration: none;
-    -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-    
-}
+
+
 
 @font-face {
     font-family: 'AvenirLTStd55Roman';
@@ -134,4 +132,15 @@ html {
          url('../fonts/avenirltstd-roman.ttf') format('truetype'),
          url('../fonts/avenirltstd-roman.svg#AvenirLTStd55Roman') format('svg');
 }
+
+@font-face {
+    font-family: 'AvenirLTStd85Heavy';
+    src: url('../fonts/avenirltstd-heavy.eot');
+    src: url('../fonts/avenirltstd-heavy.eot') format('embedded-opentype'),
+         url('../fonts/avenirltstd-heavy.woff') format('woff'),
+         url('../fonts/avenirltstd-heavy.ttf') format('truetype'),
+         url('../fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+
+
     
