@@ -3,123 +3,31 @@ html {
     
     margin: 0;
     height: 100%;
+    background-color: #2BBCBA;
     
 }
 
 #home   {
     
     width: 100%;
+    height: 100%;
+    min-height: 600;
+    max-height: 600;
+    
+}
+
+#second-screen   {
+    
+    width: 100%;
     min-height: 100%;
-    background-color: #2BBCBA;
+    background-color: white;
     
 }
 
-#logo   {
-    
-    width: 300px;
-    height: 100px;
-    margin-left: 30px;
-    background-image: url("../img/logo2.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top:1%;
-}
 
-.home-nav   {
-    
-    width: 350px;
-    height: 400px;
-    position: absolute;
-    left: 0px;
-    top: 10%;
-}
-
-.selected-item  {
-    
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    background-image: url("../img/detail.png");
-    background-size: contain;
-    background-position: center;    
-    list-style: none;
-}
-
-.item   {
-    
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    background-image: url("../img/detail2.png");
-    background-size: contain;
-    background-position: center;
-    list-style: none;
-
-    
-}
-
-.nav-text  {
-    
-
-    height: 25px;
-    width: 150px;
-    margin-top: 18px;
-    text-align: left;   
-    list-style: none;
-    position: relative;
-    left: -75px;
-    margin-left: 35px;
-    line-height: 20px;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'AvenirLTStd55Roman', sans-serif;
-    text-indent:40px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.nav-text:hover   { 
-
-    font-family: 'AvenirLTStd85Heavy',serif;
-    
-    
-}
-
-#left   {
- 
- 
-    
-    float:left;
-}
-
-#right   {
- 
-    width: 160px;
-    float:left;
-    opacity: 0;
-    color: white;
-    text-decoration: none;
-    -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-}
-
-
-#right:hover   {
- 
-    width: 160px;
-    float:left;
-    opacity: 100;
-    color: white;
-    text-decoration: none;
-    -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
+.entypo {
+    font-family:"Entypo";
+    font-size: 30px;
 }
 
 
@@ -142,6 +50,17 @@ html {
          url('../fonts/avenirltstd-heavy.woff') format('woff'),
          url('../fonts/avenirltstd-heavy.ttf') format('truetype'),
          url('../fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
+}
+
+@font-face {
+    font-family:'Entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#Entypo') format('svg');
+
+        
 }
 
 

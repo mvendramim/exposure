@@ -7,7 +7,10 @@
         <title></title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="css/nav-lateral.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.nav.js"></script> 
+        <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
         
     </head>
     <body>
@@ -15,21 +18,28 @@
     </body>
             
     <div id="home">
-        <div id="logo"></div>
+        
+        <div id="logo-home"></div>
+        
+        <div id="fixed">
+        <div class="logo"></div>
         <nav class="home-nav">
-            <ul id="left">
-            <li class="selected-item"></li>
+            <ul id="nav">
+            <li class="current"></li>
+            <li class="item"></li>
             <li class="item"></li>
             <li class="item"></li>
             </ul>
             <ul id="right">
-            <li class="nav-text">testing</li>
-            <li class="nav-text">testing</li>
-            <li class="nav-text">testing</li>
+            <li class="nav-item"><a href="#home" class="nav-text">testing</a></li>
+            <li class="nav-item"><a href="#second-screen" class="nav-text">testing</a></li>
+            <li class="nav-item"><a href="#" class="nav-text">testing</a></li>
+            <li class="nav-item"><a href="#" class="nav-text">testing</a></li>
             </ul>
         </nav>
     </div>
+        </div>
     
-    <div>dadsada</div>
+    <div id="second-screen">dadsada</div>
     
     </html>
