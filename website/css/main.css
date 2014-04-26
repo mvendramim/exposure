@@ -16,6 +16,19 @@ html {
     
 }
 
+#logo-home  {
+
+    background-image: url("../img/logo-home.png");
+    height: 250px;
+    width: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
 #second-screen   {
     
     width: 100%;

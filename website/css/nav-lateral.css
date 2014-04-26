@@ -2,6 +2,8 @@
     
     position: fixed;
     height: 600px;
+    width: 300px;
+    top: 0px;
 }
 
 .logo   {
@@ -37,7 +39,7 @@
     height: 400px;
     position: absolute;
     left: 0px;
-    top: 13%;
+    top: 300px;
 }
 
 .current  {
